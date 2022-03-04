@@ -4,8 +4,8 @@ ChromaVision is a chrome extension that helps people with Color Vision Deficienc
 
 ### Build Instructions
 
-1. In the project directory, run: `npm run new-build`
-2. The command creates a fresh `build` directory for the chrome extension.
-3. Head to Chrome Browser and turn on `Developer mode`
-4. Select `Load unpacked`
-5. Select the `build` directory that was created in step 1 to install the chrome extension
+1. In the project directory, run: `npm install` to install the necessary dependencies
+2. Next, run: `npm run new-build` to create a `build` directory for the chrome extension.
+4. Head to Chrome Browser and turn on `Developer mode`
+5. Select `Load unpacked`
+6. Select the `build` directory that was created in step 2 to install the chrome extension
